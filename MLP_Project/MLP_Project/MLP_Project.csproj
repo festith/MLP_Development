@@ -48,6 +48,7 @@
     <Compile Include="MLP\NeuronActivationFunctions\IFunction.cs" />
     <Compile Include="MLP\NeuronActivationFunctions\SigmoidFunction.cs" />
     <Compile Include="MLP\Neuron\Layer.cs" />
+    <Compile Include="MLP\Neuron\Network.cs" />
     <Compile Include="MLP\Neuron\Neuron.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
