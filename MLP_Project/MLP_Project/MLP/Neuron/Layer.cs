@@ -2,7 +2,7 @@
 
 namespace MLP_Network
 {
-    public class Layer
+    public class Layer : ILayer
     {
         /// <summary>
         /// Get neurons of the layer

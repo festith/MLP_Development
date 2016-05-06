@@ -4,3 +4,6 @@ D:\Projects\Analitycs\MLP\MLP_Project\MLP_Project\bin\Debug\MLP_Project.exe
 D:\Projects\Analitycs\MLP\MLP_Project\MLP_Project\bin\Debug\MLP_Project.pdb
 D:\Projects\Analitycs\MLP\MLP_Project\MLP_Project\obj\Debug\MLP_Project.exe
 D:\Projects\Analitycs\MLP\MLP_Project\MLP_Project\obj\Debug\MLP_Project.pdb
+D:\Projects\GitHub\MLP\MLP_Development\MLP_Project\MLP_Project\bin\Debug\MLP_Project.exe.config
+D:\Projects\GitHub\MLP\MLP_Development\MLP_Project\MLP_Project\obj\Debug\MLP_Project.exe
+D:\Projects\GitHub\MLP\MLP_Development\MLP_Project\MLP_Project\obj\Debug\MLP_Project.pdb
