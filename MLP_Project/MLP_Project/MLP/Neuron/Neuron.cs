@@ -1,4 +1,6 @@
-﻿namespace MLP_Network
+﻿using System;
+
+namespace MLP_Network
 {
     public class Neuron
     {
@@ -7,12 +9,23 @@
         /// </summary>
         public float[] Weights { get; set; }
 
+        private static Random random = new Random();
         private IFunction activationFunction;
 
         public Neuron(IFunction activationFunction, int inputDimension)
         {
             Weights = new float[inputDimension];
+            InitializeWeights();
+
             this.activationFunction = activationFunction;
+        }
+
+        private void InitializeWeights()
+        {
+            for (int i = 0; i < Weights.Length; i++)
+            {
+                Weights[i] = random.Next(-50, 50)/50f;
+            }
         }
 
         /// <summary>
