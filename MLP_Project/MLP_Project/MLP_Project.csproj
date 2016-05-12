@@ -47,6 +47,7 @@
     <Compile Include="MLP\NeuronActivationFunctions\HyperbolicTangensFunction.cs" />
     <Compile Include="MLP\NeuronActivationFunctions\IFunction.cs" />
     <Compile Include="MLP\NeuronActivationFunctions\SigmoidFunction.cs" />
+    <Compile Include="MLP\Neuron\FirstLayer.cs" />
     <Compile Include="MLP\Neuron\ILayer.cs" />
     <Compile Include="MLP\Neuron\Layer.cs" />
     <Compile Include="MLP\Neuron\Network.cs" />
