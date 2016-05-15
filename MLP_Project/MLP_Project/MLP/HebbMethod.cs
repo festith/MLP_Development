@@ -3,7 +3,7 @@
     /// <summary>
     /// Signal Hebb's method implementation.
     /// </summary>
-    public class HebbMethod : ILearningMethod
+    public class HebbMethod
     {
         /// <summary>
         /// Gets the learning kf.

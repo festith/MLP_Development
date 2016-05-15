@@ -44,6 +44,8 @@
     <Compile Include="MLP\ErrorMetrics\HalfSquaredEuclidianDistance.cs" />
     <Compile Include="MLP\ErrorMetrics\IMetrics.cs" />
     <Compile Include="MLP\ErrorMetrics\Loglikelihood.cs" />
+    <Compile Include="MLP\HebbMethod.cs" />
+    <Compile Include="MLP\LearningSystem.cs" />
     <Compile Include="MLP\NeuronActivationFunctions\HyperbolicTangensFunction.cs" />
     <Compile Include="MLP\NeuronActivationFunctions\IFunction.cs" />
     <Compile Include="MLP\NeuronActivationFunctions\SigmoidFunction.cs" />

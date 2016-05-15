@@ -11,6 +11,8 @@ namespace MLP_Network
 
         private static Random random = new Random();
         private IFunction activationFunction;
+        private HebbMethod learningMethod;
+        private bool isLearningMethodActivated;
 
         public Neuron(IFunction activationFunction, int inputDimension)
         {
@@ -20,6 +22,11 @@ namespace MLP_Network
             this.activationFunction = activationFunction;
         }
 
+        public void ActivateLearningMethod(HebbMethod method)
+        {
+            learningMethod = method;
+            isLearningMethodActivated = true;
+        }
         private void InitializeWeights()
         {
             for (int i = 0; i < Weights.Length; i++)
@@ -41,7 +48,17 @@ namespace MLP_Network
                 input += inputVector[i]*Weights[i];
             }
 
-            return activationFunction.Compute(input);
+            var result = activationFunction.Compute(input);
+
+            if (isLearningMethodActivated)
+            {
+                for (int i = 0; i < Weights.Length; i++)
+                {
+                    Weights[i] = learningMethod.CalculateWeight(Weights[i], inputVector[i], result);
+                }
+            }
+
+            return result;
         }
     }
 }
